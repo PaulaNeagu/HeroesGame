@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heroes Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Heroes Game</h1>
+      <div class="btns-container">
+        <button class="btn" id="show-heroes">Show Heroes</button>
+        <button class="btn start-fight" id="start-fight">Start Fight</button>
+      </div>
+      <div class="heroes-container">
+        <div class="hero-container">
+          <div class="hero-avatar gambalino-sprite"></div>
+          <div class="hero-detail"></div>
+          <span><h2>Gambalino Sprite</h2></span>
+          <span>Life : 60hp</span>
+          <span>LVL : 30</span>
+          <span>Health : 50%</span>
+        </div>
+        <div class="hero-container">
+          <div class="hero-avatar kaliophic-dragon"></div>
+          <div class="hero-detail"></div>
+          <span><h2>Kaliophic Dragon</h2></span>
+          <span>Life : 90hp</span>
+          <span>LVL : 35</span>
+          <span>Health : 40%</span>
+        </div>
+        <div class="hero-container">
+          <div class="hero-avatar colomboli-maniz"></div>
+          <div class="hero-detail"></div>
+          <span><h2>Colomboli Maniz</h2></span>
+          <span>Life : 45hp</span>
+          <span>LVL : 35</span>
+          <span>Health : 90%</span>
+        </div>
+      </div>
+
+      <div class="show-winner" id="show-winner"></div>
+    </div>
+    <script src="main.js"></script>
+    <script src="dinamic.js"></script>
+  </body>
+</html>
